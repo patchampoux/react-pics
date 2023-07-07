@@ -1,6 +1,6 @@
-const ImageShow = () => {
+const ImageShow = ({ image }) => {
 	return (
-		<div>ImageShow</div>
+		<div>{image.alt_description}</div>
 	);
 }
 
